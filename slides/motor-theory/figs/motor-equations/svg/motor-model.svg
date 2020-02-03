@@ -10,9 +10,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="1600"
+   width="1650"
    height="700"
-   viewBox="0 0 423.33333 185.20834"
+   viewBox="0 0 436.5625 185.20834"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 (f8dce91, 2019-08-02)"
@@ -48,9 +48,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.32"
-     inkscape:cx="1459.0572"
-     inkscape:cy="27.549304"
+     inkscape:zoom="0.64"
+     inkscape:cx="972.60643"
+     inkscape:cy="265.02924"
      inkscape:document-units="in"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -86,8 +86,8 @@
        id="rect113"
        width="464.96396"
        height="206.76558"
-       x="-14.508279"
-       y="95.912659" />
+       x="-12.854633"
+       y="98.806541" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:0.23761734px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.04455325"
@@ -102,14 +102,14 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.79578829px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.04060307"
-       x="65.953453"
-       y="136.70082"
+       x="51.897465"
+       y="131.73988"
        id="text51"><tspan
          sodipodi:role="line"
          id="tspan49"
-         x="65.953453"
-         y="136.70082"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:19.75555611px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';stroke-width:0.04060307">Electrical part</tspan></text>
+         x="51.897465"
+         y="131.73988"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:21.16666603px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';stroke-width:0.04060307">Electrical part</tspan></text>
     <text
        id="text55"
        y="175.73384"
@@ -131,36 +131,80 @@
        width="426.24377" />
     <text
        id="text828"
-       y="140.19467"
-       x="277.50275"
+       y="131.09961"
+       x="269.23453"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.79578829px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.04060307"
        xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:19.75555611px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';stroke-width:0.04060307"
-         y="140.19467"
-         x="277.50275"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:21.16666603px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';stroke-width:0.04060307"
+         y="131.09961"
+         x="269.23453"
          id="tspan826"
          sodipodi:role="line">Mechanical part</tspan></text>
     <text
        id="text832"
-       y="282.96997"
-       x="85.334236"
+       y="290.82477"
+       x="79.959892"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.79578829px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.04060307"
        xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333397px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;stroke-width:0.04060307"
-         y="282.96997"
-         x="85.334236"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.63888931px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;stroke-width:0.04060307"
+         y="290.82477"
+         x="79.959892"
          id="tspan830"
          sodipodi:role="line">Motor stator</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.79578829px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.04060307"
-       x="306.09601"
-       y="282.14316"
+       x="302.37531"
+       y="293.30527"
        id="text836"><tspan
          sodipodi:role="line"
          id="tspan834"
-         x="306.09601"
-         y="282.14316"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333397px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;stroke-width:0.04060307">Motor rotor</tspan></text>
+         x="302.37531"
+         y="293.30527"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.63888931px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;stroke-width:0.04060307">Motor rotor</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.79578829px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.04060307"
+       x="316.77686"
+       y="165.82617"
+       id="text833"><tspan
+         sodipodi:role="line"
+         id="tspan831"
+         x="316.77686"
+         y="165.82617"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;stroke-width:0.04060307">Experienced torque</tspan></text>
+    <text
+       id="text837"
+       y="194.35156"
+       x="340.34131"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.79578829px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.04060307"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;stroke-width:0.04060307"
+         y="194.35156"
+         x="340.34131"
+         id="tspan835"
+         sodipodi:role="line">Motor intertia</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111124px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458335"
+       x="404.31641"
+       y="188.27277"
+       id="text841"><tspan
+         sodipodi:role="line"
+         id="tspan839"
+         x="404.31641"
+         y="188.27277"
+         style="stroke-width:0.26458335">ia</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.79578829px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.04060307"
+       x="359.35825"
+       y="264.21811"
+       id="text845"><tspan
+         sodipodi:role="line"
+         id="tspan843"
+         x="359.35825"
+         y="264.21811"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;stroke-width:0.04060307">Viscous friction</tspan></text>
   </g>
 </svg>
