@@ -1,0 +1,238 @@
+
+%
+%\subsection{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%{
+%\paper{Author et al. year in {\bf CONF/JOUR}}
+%\begin{frame}{Title}
+%
+%	\vspace{-3mm}
+%   	\begin{figure}
+%   		\includegraphicscopyright[width=1.0\linewidth]{in/fig}{}
+% 	\end{figure}
+%
+%
+%\end{frame}
+%}
+%
+%
+%
+
+
+\section{Background}
+
+
+\subsection{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{
+\paper{Page M. 1999 in {\bf http://lancet.mit.edu/motors/motors2.html}}
+\begin{frame}{How do a motor work}
+
+	\vspace{-3mm}
+   	\begin{figure}
+   		\includegraphicscopyright[width=1.0\linewidth]{introduction/pdf/how-a-motor-work}{}
+ 	\end{figure}
+
+
+%\small 
+
+\end{frame}
+}
+
+
+
+\subsection{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{
+\paper{Page M. 1999 in {\bf http://lancet.mit.edu/motors/motors3.html}}
+\begin{frame}{Torque}
+
+Torque, also known as momentum, is the term used 
+to talk about forces that cause or change rotational motion.
+
+\begin{columns}
+\begin{column}{0.5\textwidth}  %%<--- here
+
+	\vspace{-3mm}
+   	\begin{figure}
+   		\includegraphicscopyright[width=0.9\linewidth]{introduction/pdf/torque}{}
+ 	\end{figure}
+
+\end{column}
+
+\begin{column}{0.5\textwidth}
+\vspace{-20mm}
+\begin{equation*}
+\begin{split}
+T & = r \cdot \mathbf{F} \cdot  \sin(\phi)  \\
+T & = r \cdot \mathbf{F}_{tan} 
+\end{split}
+\end{equation*}
+
+
+Units of torque \\
+* SI: newton-meters (N-m) \\
+* English: inch-pounds (in-lb), foot-pounds (ft-lb), inch-ounces (in-oz)
+ 
+\end{column}
+
+
+\end{columns}
+
+
+
+
+
+
+\end{frame}
+}
+
+
+\subsection{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{
+\paper{Page M. 1999 in {\bf http://lancet.mit.edu/motors/motors3.html}}
+\begin{frame}{Speed}
+
+The rate of rotation around an axis usually expressed 
+in radians or revolutions per second or per minute.
+
+\begin{columns}
+\begin{column}{0.5\textwidth}  %%<--- here
+
+	\vspace{-3mm}
+   	\begin{figure}
+   		\includegraphicscopyright[width=0.75\linewidth]{introduction/pdf/speed}{}
+ 	\end{figure}
+
+\end{column}
+
+\begin{column}{0.5\textwidth}
+%\vspace{-70mm}
+\begin{equation*}
+\begin{split}
+1 revolution & = 360 deg \\
+1 revolution & = 2 \pi radians \\
+1 radian & = (180/ \pi) deg \\
+1 deg & = (\pi / 180) radians
+\end{split}
+\end{equation*}
+
+Units of speed: \\
+* radians/second (rad/s) \\
+* revolutions/second (rps) \\
+* revolutions/minute (rpm) 
+\end{column}
+
+
+\end{columns}
+
+
+From the angular velocity $\omega$, we can find the tangential velocity
+with $v_{tan}= r \cdot \omega$ anywhere in the rotating body.
+
+\end{frame}
+}
+
+
+
+\subsection{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{
+\paper{Page M. 1999 in {\bf http://lancet.mit.edu/motors/motors3.html}}
+\begin{frame}{Power}
+
+When a torque $T$ (with respect to the axis of rotation) acts 
+on a body that rotates with angular velocity $\omega$,
+its power (rate of doing work) is the product of the torque
+and angular velocity. 
+
+\begin{equation*}
+P_{rot}= T \cdot \omega
+\end{equation*}
+
+Units of power: \\
+* SI: Watts (W), newton-meters per second (N-m/s) \\
+* English: foot-pound per second (ft-lb/s), horsepower (hp)
+
+\end{frame}
+}
+
+
+\subsection{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{
+\paper{Page M. 1999 in {\bf http://lancet.mit.edu/motors/motors3.html}}
+\begin{frame}{Torque/Speed Curves}
+
+\begin{columns}
+\begin{column}{0.4\textwidth}  %%<--- here
+
+	\vspace{-3mm}
+   	\begin{figure}
+   		\includegraphicscopyright[width=0.9\linewidth]{introduction/pdf/tsc}{}
+ 	\end{figure}
+
+\end{column}
+
+\begin{column}{0.6\textwidth}
+
+There is a tradeoff between how much torque a motor delivers, 
+and how fast the output shaft spins. 
+
+* The stall torque ($T_s$) point in the curve where
+torque is at its maximum but the shaft is not rotating. \\
+* The no load speed ($\omega_n$) maximum output speed
+of the motor (where no torque is applied to the shaft)
+
+
+\end{column}
+
+\end{columns}
+
+\end{frame}
+}
+
+
+
+\subsection{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{
+\paper{Page M. 1999 in {\bf http://lancet.mit.edu/motors/motors3.html}}
+\begin{frame}{Torque/Speed Curves}
+
+The area under the curve is the power given by the product 
+of torque and angular velocity.
+	\vspace{-3mm}
+   	\begin{figure}
+   		\includegraphicscopyright[width=0.9\linewidth]{introduction/pdf/tsc-power}{}
+ 	\end{figure}
+* Due to the linear relationship of torque and angular velocity,
+the maximum power occurs at the point where $\omega=1/2 \omeag_n$,
+$T=1/2 T_s$.
+
+\end{frame}
+}
+
+
+
+
+\subsection{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{
+\paper{Page M. 1999 in {\bf http://lancet.mit.edu/motors/motors3.html}}
+\begin{frame}{Power/Torque and Power/Speed Curves}
+
+	\vspace{-2mm}
+   	\begin{figure}
+   		\includegraphicscopyright[width=0.8\linewidth]{introduction/pdf/tps}{}
+ 	\end{figure}
+
+
+
+\end{frame}
+}
+
+
+
+

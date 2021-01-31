@@ -1,0 +1,193 @@
+\section{Motor Modelling}
+
+%
+%\subsection{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%{
+%\paper{Author et al. year in {\bf CONF/JOUR}}
+%\begin{frame}{Title}
+%
+%	\vspace{-3mm}
+%   	\begin{figure}
+%   		\includegraphicscopyright[width=1.0\linewidth]{in/fig}{}
+% 	\end{figure}
+%
+%
+%\end{frame}
+%}
+%
+%
+%
+
+
+\subsection{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{
+\begin{frame}{Motor Modelling}
+
+	%{\bf Automatic Quantification of Facial Expressions 
+	%with Nonlinear Analyses in HRI}
+	\vspace{-3mm}
+   	\begin{figure}
+   		\includegraphicscopyright[width=1.0\linewidth]{motor-equations/pdf/motor-model}{}
+ 	\end{figure}
+
+
+
+\end{frame}
+}
+
+
+%\section{Lecturing \& Technical Skills}
+
+
+\subsection{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{
+\begin{frame}{DC motor modelling: electrical part}
+
+By Kirchhoff's Voltage Law, we have
+\begin{equation}
+\begin{split}
+V_m - V_{R} - V_{L} - V_{emf} &= 0 \\
+%V_m - Ri - L \frac{di}{dt} -V_b &= 0 \\
+V_m - Ri - L \frac{di}{dt} - k_e \dot \theta  &= 0
+\end{split}
+\end{equation}
+
+Asumming the circuit has a very fast response,
+Eq (1) with $L \approx 0$ is presented as
+\begin{equation}
+\begin{split}
+V_m - Ri - k_e \dot \theta &=0 \\
+\frac{V_m}{R} - \frac{k_e}{R} \dot \theta &= i
+\end{split}
+\end{equation}
+
+
+
+\end{frame}
+}
+
+
+\subsection{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{
+\begin{frame}{DC motor modelling: mechanical part}
+
+By Newton's Law (torque aka energy balance), we have
+\begin{equation} 
+\begin{split}
+T_e - T_{\dot \theta} - T_b - T_L = 0 \\
+\end{split}
+\end{equation}
+Where $T_e$ is the electromagnetic torque. 
+$T_{ \dot \theta }$, 
+is torque generated from the rotational acceleration of the rotor. 
+$T_b$, is the torque due to the friction and angular velocity in the motor. 
+$T_L$ is the torque of the mechanical load (external load). 
+
+\begin{equation}
+K_t i - J \ddot  \theta - b \dot \theta  - T_L = 0
+\end{equation}
+
+
+\end{frame}
+}
+
+
+\subsection{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{
+\begin{frame}{DC motor modelling: complete}
+
+Assume the motor is not connected to the load (i.e. $T_L=0$)
+in Eq 4, we have
+\begin{equation}
+\begin{split}
+J \ddot{ \theta} + b \dot \theta  &= K_t i \\
+\frac{J}{K_t} \ddot{ \theta} + \frac{b}{K_t} \dot \theta &= i
+\end{split}
+\end{equation}
+
+
+\end{frame}
+}
+
+
+
+\subsection{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{
+\begin{frame}{DC motor modelling: complete}
+
+
+Subtituting $i$ from (2) in (5), we then have
+\begin{equation}
+\begin{split}
+\frac{J}{K_t} \ddot{ \theta} + \frac{b}{K_t} \dot \theta & = \frac{V_m}{R} - \frac{k_e}{R} \dot \theta \\
+\frac{J}{K_t} \ddot{ \theta} + (\frac{b}{K_t}  + \frac{k_e}{R} ) \dot \theta & = \frac{V_m}{R} \\
+J \ddot{ \theta} + (b + \frac{ k_t k_e }{R} ) \dot \theta & = V_m \frac{k_t}{R}
+\end{split}
+\end{equation}
+
+
+First-order differential equation in angular velocity
+\begin{equation*}
+\begin{split}
+J \dot \omega + (b + \frac{ k_t k_e }{R} ) \omega = V_m \frac{k_t}{R}
+\end{split}
+\end{equation*}
+
+
+\end{frame}
+}
+
+
+
+\subsection{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{
+\begin{frame}{Motor Modelling}
+
+	%{\bf Automatic Quantification of Facial Expressions 
+	%with Nonlinear Analyses in HRI}
+	\vspace{-3mm}
+   	\begin{figure}
+   		\includegraphicscopyright[width=1.0\linewidth]{motor-equations/pdf/motor-model}{}
+ 	\end{figure}
+
+
+\begin{equation*}
+\begin{split}
+J \dot \omega + (b + \frac{ k_t k_e }{R} ) \omega = V_m \frac{k_t}{R}
+\end{split}
+\end{equation*}
+
+
+
+\end{frame}
+}
+
+
+
+
+
+%
+%\subsection{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%{
+%\begin{frame}{}
+%
+%
+%    \begin{figure}
+%        \includegraphicscopyright[width=1.0\linewidth]{techskills/drawing}{}
+%   \end{figure}
+%
+%
+%
+%\end{frame}
+%}
+%
+%
+%

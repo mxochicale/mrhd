@@ -1,9 +1,9 @@
 # Medical Robotics: Hardware Development 
-> Miguel Xochicale
-> 2020  
+> Miguel Xochicale, B.Sc., Msc. Ph.D.
 
-* Slides
-	* [motor-theory](/slides/motor-theory/presentation-motor-theory.pdf)
+* Slides:
+	* [2020](/slides/motor-theory-2020/presentation-motor-theory.pdf)
+	* [2021](/slides/motor-theory-2020/presentation-motor-theory.pdf)
 
 
 ## Contact 

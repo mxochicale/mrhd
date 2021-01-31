@@ -1,0 +1,144 @@
+\documentclass[compress, aspectratio=169]{beamer}
+ 
+%--------------------------------------------------------------------------
+% Common packages
+%--------------------------------------------------------------------------
+\usepackage[english]{babel}
+\usepackage{pgfpages} % required for notes on second screen
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{multicol}
+\usepackage[normalem]{ulem}
+
+\usepackage{tabularx,ragged2e}
+\usepackage{booktabs}
+\usepackage{marvosym}
+
+%font
+%\usepackage{fontawesome}
+%\usepackage[tt=false, type1=true]{libertine}
+%\usepackage[T1]{fontenc}
+%\usefonttheme[onlymath]{serif}
+
+\usepackage{unicode-math}
+
+\usepackage{tikz}
+\usetikzlibrary{calc,shapes,shadows}
+\usetikzlibrary{fadings}
+
+\setbeamertemplate{caption}[numbered]
+
+
+%--------------------------------------------------------------------------
+% Load theme
+%--------------------------------------------------------------------------
+\usetheme{mx}
+\graphicspath{{figs/}}
+
+
+%--------------------------------------------------------------------------
+% General presentation settings
+%--------------------------------------------------------------------------
+\title{
+Introduction to Motor Theory
+	} 
+\subtitle{Medical Robotics: Hardware Development}
+\date{1st of February 2020}
+
+\author{
+	Miguel Xochicale, B.Sc., M.Sc., Ph.D.
+} 
+\institute{
+School of Biomedical Engineering \& Imaging Sciences \\
+{\bf King's College London}
+}
+
+
+
+%--------------------------------------------------------------------------
+% Notes settings
+%--------------------------------------------------------------------------
+%\setbeameroption{show notes on second screen}
+%\setbeameroption{hide notes}
+
+
+\begin{document}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\licenseframe{https://github.com/mxochicale/mrhd}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\maketitle
+
+%\begin{frame}{Overview}
+%\tableofcontents
+%\end{frame}
+
+
+\subsection{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{
+%\paper{}
+\begin{frame}{Outline}
+
+%\badge{badge/oa}
+
+
+\begin{enumerate}
+\item Introduction
+\item Background 
+\item Motors Types
+\item Motor Modelling
+%\item Motor Control
+\item Summary
+\end{enumerate}
+
+
+\end{frame}
+}
+
+
+
+
+%--------------------------------------------------------------------------
+% Content
+%--------------------------------------------------------------------------
+
+\input{tex-files/introduction}
+\input{tex-files/motor-background}
+\input{tex-files/motor-types}
+\input{tex-files/motor-modelling}
+%\input{tex-files/motor-control}
+\input{tex-files/summary}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\closingtitle
+
+\section{References}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{References}
+    \begin{thebibliography}{10}
+
+\beamertemplatearticlebibitems
+
+	\bibitem{lewis2003}
+	Andrew D. Lewis	
+	\newblock \doublequoted{
+	A Mathematical Approachto Classical Control
+	} 
+      	\newblock Open Book (2003) 
+      	\newblock \url{freescience.info/go.php?pagename=books&id=1740}
+
+
+    \end{thebibliography}
+\end{frame}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\licenseframe{https://github.com/mxochicale/mrhd}
+
+\end{document}
